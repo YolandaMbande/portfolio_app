@@ -1,6 +1,9 @@
 # Personal Portfolio
 
 ![Portfolio Preview](portfolio_app\assets\img\readme_preview.gif)
+<img src="portfolio_app/assets/img/readme_preview.gif" width="600">
+
+
 
 A personal portfolio website showcasing my background, skills, projects, experience, and contact information as a software developer.
 
