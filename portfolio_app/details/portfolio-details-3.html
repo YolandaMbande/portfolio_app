@@ -40,9 +40,11 @@
 
       <!-- Main CSS File -->
       <link href="../assets/css/main.css" rel="stylesheet" />
-
-      
-      
+      <style>
+         .portfolio-details-slider .swiper-slide img {
+            height: 450px;
+         }
+      </style>
    </head>
 
    <body class="portfolio-details-page">
@@ -74,10 +76,22 @@
             </nav>
 
             <div class="header-social-links">
-               <a href="https://x.com/yolanda__mbande" class="twitter"><i class="bi bi-twitter-x"></i></a>
-               <a href="https://web.facebook.com/mslandie.mbande.9/" class="facebook"><i class="bi bi-facebook"></i></a>
-               <a href="https://github.com/YolandaMbande" class="instagram"><i class="bi bi-github"></i></a>
-               <a href="https://www.linkedin.com/in/yolanda-mbande/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+               <a href="https://x.com/yolanda__mbande" class="twitter"
+                  ><i class="bi bi-twitter-x"></i
+               ></a>
+               <a
+                  href="https://web.facebook.com/mslandie.mbande.9/"
+                  class="facebook"
+                  ><i class="bi bi-facebook"></i
+               ></a>
+               <a href="https://github.com/YolandaMbande" class="instagram"
+                  ><i class="bi bi-github"></i
+               ></a>
+               <a
+                  href="https://www.linkedin.com/in/yolanda-mbande/"
+                  class="linkedin"
+                  ><i class="bi bi-linkedin"></i
+               ></a>
             </div>
          </div>
       </header>
@@ -97,46 +111,97 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                <div class="row gy-4">
                   <!-- Project Images / Slider -->
-                    <div class="col-lg-8">
-                        <div class="portfolio-details-slider swiper init-swiper">
-                            <div class="swiper-wrapper align-items-center">
-                                <div class="swiper-slide">
-                                    <img
-                                        src="../assets/img/portfolio/easybooking_preview.png"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
+                  <div class="col-lg-8">
+                     <div class="portfolio-details-slider swiper init-swiper">
+                        <div class="swiper-wrapper align-items-center">
+                           <div class="swiper-slide">
+                              <img
+                                 src="../assets/img/portfolio/easybooking_preview.png"
+                                 alt=""
+                              />
+                           </div>
+                        </div>
 
                         <div class="swiper-pagination"></div>
 
                         <div class="tech-stack mt-4">
                            <h3>Tech Stack</h3>
-                           <div class="d-flex align-items-center gap-4 mt-3">
-                            <div class="text-center">
-                              <div class="icon">
-                                <i class="bi bi-stack" style="color: #E34F26; font-size: 28px;"></i>
-                              </div>
-                              <p class="mb-0" style="font-size: 13px;">HTML</p>
-                            </div>
 
-                            <div class="text-center">
-                              <div class="icon">
-                                <i class="bi bi-palette-fill" style="color: #1572B6; font-size: 28px;"></i>
+                           <div
+                              class="d-flex align-items-center gap-4 mt-3 flex-wrap"
+                           >
+                              <div class="text-center">
+                                 <div class="icon">
+                                    <i
+                                       class="bi bi-filetype-php"
+                                       style="color: #777bb4; font-size: 28px"
+                                    ></i>
+                                 </div>
+                                 <p class="mb-0" style="font-size: 13px">PHP</p>
                               </div>
-                              <p class="mb-0" style="font-size: 13px;">CSS</p>
-                            </div>
 
-                            <div class="text-center">
-                              <div class="icon">
-                                <i class="bi bi-filetype-js" style="color: #F7DF1E; font-size: 28px;"></i>
+                              <div class="text-center">
+                                 <div class="icon">
+                                    <i
+                                       class="bi bi-code-square"
+                                       style="color: #ff2d20; font-size: 28px"
+                                    ></i>
+                                 </div>
+                                 <p class="mb-0" style="font-size: 13px">
+                                    Laravel
+                                 </p>
                               </div>
-                              <p class="mb-0" style="font-size: 13px;">JavaScript</p>
-                            </div>
 
-                          </div>
+                              <div class="text-center">
+                                 <div class="icon">
+                                    <i
+                                       class="bi bi-filetype-js"
+                                       style="color: #42b883; font-size: 28px"
+                                    ></i>
+                                 </div>
+                                 <p class="mb-0" style="font-size: 13px">
+                                    Vue.js
+                                 </p>
+                              </div>
+
+                              <div class="text-center">
+                                 <div class="icon">
+                                    <i
+                                       class="bi bi-wind"
+                                       style="color: #06b6d4; font-size: 28px"
+                                    ></i>
+                                 </div>
+                                 <p class="mb-0" style="font-size: 13px">
+                                    Tailwind CSS
+                                 </p>
+                              </div>
+
+                              <div class="text-center">
+                                 <div class="icon">
+                                    <i
+                                       class="bi bi-bootstrap-fill"
+                                       style="color: #7952b3; font-size: 28px"
+                                    ></i>
+                                 </div>
+                                 <p class="mb-0" style="font-size: 13px">
+                                    Bootstrap
+                                 </p>
+                              </div>
+
+                              <div class="text-center">
+                                 <div class="icon">
+                                    <i
+                                       class="bi bi-credit-card-fill"
+                                       style="color: #635bff; font-size: 28px"
+                                    ></i>
+                                 </div>
+                                 <p class="mb-0" style="font-size: 13px">
+                                    Stripe
+                                 </p>
+                              </div>
+                           </div>
                         </div>
-                    </div>
+                     </div>
                   </div>
                   <!-- End Project Images / Slider -->
 
@@ -151,9 +216,7 @@
 
                         <ul>
                            <li><strong>Category</strong>: Web Application</li>
-                           <li>
-                              <strong>Client</strong>:Yours Truly
-                           </li>
+                           <li><strong>Client</strong>:Yours Truly</li>
                            <li>
                               <strong>Project date</strong>: 01 January 2026
                            </li>
@@ -175,7 +238,13 @@
                      >
                         <h2>Event Booking Platform</h2>
                         <p>
-                           A responsive social links card designed to provide a simple, centralized way to access social media profiles, personal websites, and other online platforms. Built with HTML, CSS and JavaScript, the project features a clean, modern interface with responsive layouts, interactive hover effects, social media icons, and light and dark theme options.
+                           A responsive social links card designed to provide a
+                           simple, centralized way to access social media
+                           profiles, personal websites, and other online
+                           platforms. Built with HTML, CSS and JavaScript, the
+                           project features a clean, modern interface with
+                           responsive layouts, interactive hover effects, social
+                           media icons, and light and dark theme options.
                         </p>
                      </div>
                   </div>
@@ -187,24 +256,7 @@
       </main>
 
       <!-- Footer -->
-      <footer id="footer" class="footer light-background">
-         <div class="container">
-            <div class="copyright text-center">
-               <p>
-                  © <span>Copyright</span>
-                  <strong class="px-1 sitename">Yolanda Mbandss</strong>
-                  <span>All Rights Reserved<br /></span>
-               </p>
-            </div>
 
-            <div class="social-links d-flex justify-content-center">
-               <a href="https://x.com/yolanda__mbande" class="twitter"><i class="bi bi-twitter-x"></i></a>
-               <a href="https://web.facebook.com/mslandie.mbande.9/" class="facebook"><i class="bi bi-facebook"></i></a>
-               <a href="https://github.com/YolandaMbande" class="instagram"><i class="bi bi-github"></i></a>
-               <a href="https://www.linkedin.com/in/yolanda-mbande/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-         </div>
-      </footer>
       <!-- End Footer -->
 
       <!-- Scroll Top -->
